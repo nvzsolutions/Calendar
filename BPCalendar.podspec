@@ -39,7 +39,7 @@ Note: This is a fork from `https://github.com/jumartin/Calendar.git` with fixes 
      'BPCalendar' => ['BPCalendar/Assets/*.lproj']
    }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+    s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = "EventKit", "EventKitUI", "UIKit", "Foundation", "CoreGraphics"
     s.dependency "OSCache", "~> 1.2"
     s.dependency "OrderedDictionary", "~> 1.2"
