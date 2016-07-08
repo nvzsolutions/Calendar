@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BPCalendar_Example' do
+  pod 'BPCalendar', :path => '../'
+
+  target 'BPCalendar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
